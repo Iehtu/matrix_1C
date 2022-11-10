@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ad002ea-03c4-47a0-9437-4e5d0523fc92">
+  <producedTypes>
+    <selectionType typeId="99dba012-066d-4217-97b8-ab3fa2138c94" valueTypeId="aea08841-a8a6-4ab0-9f33-4b59ec8963eb"/>
+    <listType typeId="c7da5e66-d9dd-4d56-83ee-0bc05f4be4e7" valueTypeId="a094bc3a-7983-4d30-85ed-d2bd6c8cd50e"/>
+    <managerType typeId="96caeacf-d186-4234-bfab-aae9294b1d84" valueTypeId="5a5baef0-5b74-4825-a3e1-d3349fe3c031"/>
+    <recordSetType typeId="6f36b6b5-e03d-448b-a78c-162a94a9b177" valueTypeId="e25f134f-2952-43bf-beeb-fc587eade2bf"/>
+    <recordKeyType typeId="cc9e457f-61e3-4304-86c8-2e054a8113a4" valueTypeId="01a7b43b-6373-48aa-bb2a-4e29c29fb29e"/>
+    <recordType typeId="aa3508c1-a746-45ad-8ed6-869e968a0a90" valueTypeId="f3e8c8f0-b5bf-4e31-9732-277d6e27aa84"/>
+    <recordManagerType typeId="bcfeeb93-9e29-4185-a678-f289e9ae4b1d" valueTypeId="e332c934-7920-475c-9cc4-c19ea9581c9c"/>
+  </producedTypes>
+  <name>Начисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="23403137-4100-483e-8522-5829166d4ddb">
+    <name>Сумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="0f03da41-0948-42f5-a568-124dd9127bcb">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудник</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
