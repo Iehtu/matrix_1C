@@ -1,2 +1,2 @@
 # matrix_1C
-Create matrix calculations using 1C language
+Creating perceptron to recognize number 5 with usage of 1C Enterprise language
